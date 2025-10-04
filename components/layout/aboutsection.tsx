@@ -133,15 +133,6 @@ export function AboutSection() {
                         <Github size={18} />
                       </Link>
                     </Button>
-                    <Button variant='ghost' size='sm' asChild>
-                      <Link
-                        href={BASIC_INFO.linkedIn}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                      >
-                        <Linkedin size={18} />
-                      </Link>
-                    </Button>
                   </div>
                 </div>
 

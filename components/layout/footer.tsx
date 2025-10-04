@@ -46,16 +46,6 @@ export function Footer() {
                 </Link>
               </Button>
               <Button variant='ghost' size='sm' asChild>
-                <Link
-                  href={BASIC_INFO.linkedIn}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <Linkedin size={20} />
-                  <span className='sr-only'>LinkedIn</span>
-                </Link>
-              </Button>
-              <Button variant='ghost' size='sm' asChild>
                 <Link href={`mailto:${BASIC_INFO.email}`}>
                   <Mail size={20} />
                   <span className='sr-only'>Email</span>

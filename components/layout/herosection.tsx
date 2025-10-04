@@ -14,10 +14,10 @@ export function HeroSection() {
           {/* Main heading */}
           <div className='space-y-4'>
             <h1 className='font-bold text-4xl md:text-6xl lg:text-7xl text-balance'>
-              <span className='text-foreground'>Towhid Karim</span>
+              <span className='text-foreground'>Salma Akther Mim</span>
             </h1>
-            <p className='font-medium text-muted-foreground text-xl md:text-2xl'>
-              Full Stack Engineer
+            <p className='font-medium text-muted-foreground text-2xl md:text-2xl'>
+            Frontend Developer
             </p>
           </div>
 
@@ -44,14 +44,6 @@ export function HeroSection() {
               </Link>
             </Button>
             <Button variant='ghost' size='sm' asChild>
-              <Link
-                href={BASIC_INFO.linkedIn}
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <Linkedin size={20} />
-                <span className='sr-only'>LinkedIn</span>
-              </Link>
             </Button>
             <Button variant='ghost' size='sm' asChild>
               <Link href={`mailto:towhidkarim123@gmail.com`}>
