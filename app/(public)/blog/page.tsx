@@ -1,4 +1,5 @@
-import { BlogSection } from '@/components/layout/blogsection';
+// import { BlogSection } from '@/components/layout/blogsection';
+import BlogSection from '@/components/layout/blogsection';
 import React from 'react';
 
 export default function page() {

@@ -15,8 +15,6 @@ import { TResponse } from '@/zod/response.typeschema';
 import { TProject } from '@/zod/project.typeschema';
 import Link from 'next/link';
 
-// Client component if you want client-side fetching
-"use client";
 
 import { useEffect, useState } from "react";
 

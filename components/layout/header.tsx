@@ -23,7 +23,7 @@ export function Header() {
         <div className='flex justify-between items-center'>
           {/* Logo/Name */}
           <Link href='/' className='font-bold text-foreground text-xl'>
-            Towhid Karim
+            Salma Akther Mim
           </Link>
 
           {/* Desktop Navigation */}
